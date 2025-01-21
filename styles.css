@@ -32,14 +32,23 @@ body {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    width: 350px;
 }
 
 .herosecondary {
     font-size: 18px;
     color: #E5E7EB;
+    width: 470px;
+    margin: 0px 0px 5px;
 }
 .herowrapper {
     display: flex;
+    justify-content: center;
+}
+
+.herowrapper img {
+    height: 300px;
+    margin-bottom: 100px;
 }
 
 .herowrapper button {
@@ -47,4 +56,5 @@ body {
     color: white;
     border-radius: 5px;
     border-color: #3882F6;
+    width: 7em;
 }
