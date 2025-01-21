@@ -1,0 +1,43 @@
+body {
+    font-family: 'Roboto';
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 48px;
+    padding: 0px 175px 0px 175px;
+
+}
+.headerlogo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.header ul {
+    list-style: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    gap: 20px;
+}
+
+.topwrapper {
+    background-color: #1F2937;
+}
+
+
+.heromain {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.herosecondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.herowrapper button {
+    background-color: #3882F6;
+}
