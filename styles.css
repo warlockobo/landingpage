@@ -37,7 +37,13 @@ body {
     font-size: 18px;
     color: #E5E7EB;
 }
+.herowrapper {
+    display: flex;
+}
 
 .herowrapper button {
     background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    border-color: #3882F6;
 }
