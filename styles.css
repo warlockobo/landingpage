@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto';
+    margin: 0;
 }
 
 .header {
@@ -7,8 +8,8 @@ body {
     justify-content: space-between;
     padding-left: 48px;
     padding: 0px 175px 0px 175px;
-    margin-bottom: 50px;
-
+    margin: 0 auto 50px;
+    max-width: 1100px;
 }
 .headerlogo {
     color: #f9faf8;
@@ -33,6 +34,7 @@ body {
     color: #F9FAF8;
     font-weight: 900;
     width: 350px;
+    margin-bottom: 10px;
 }
 
 .herosecondary {
@@ -41,6 +43,12 @@ body {
     width: 470px;
     margin: 0px 0px 5px;
 }
+
+.herocontent {
+    height: 300px;
+    width: 500px;
+}
+
 .herowrapper {
     display: flex;
     justify-content: center;
@@ -50,6 +58,7 @@ body {
     height: 300px;
     margin-bottom: 100px;
     width: 600px;
+
 }
 
 .herowrapper button {
@@ -58,6 +67,8 @@ body {
     border-radius: 5px;
     border-color: #3882F6;
     width: 7em;
+    padding: 5px;
+    margin-top: 5px;
 }
 
 .info {
@@ -81,4 +92,11 @@ body {
 .info img {
     width:200px;
     height: 200px;
+    border-radius: 12px;
+    border: 4px #3882F6 solid;
+}
+
+.imagewrapper p {
+    max-width: 200px;
+    text-align: center;
 }
