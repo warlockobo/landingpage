@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
@@ -63,7 +63,7 @@ body {
 
 }
 
-.herowrapper button {
+.button {
     background-color: #3882F6;
     color: white;
     border-radius: 5px;
@@ -110,6 +110,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 400px;
+    flex-direction: column;
 }
 
 .quote {
@@ -119,8 +120,12 @@ body {
     font-weight: lighter;
     justify-content: center;
     margin: 0 290px 0 290px;
+
 }
 
 .quotecredit {
     font-style: bold;
+    justify-content: right;
+    font-size: 26px;
+    margin-right: -50%;
 }
