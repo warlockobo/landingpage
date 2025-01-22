@@ -100,3 +100,17 @@ body {
     max-width: 200px;
     text-align: center;
 }
+
+.quotewrapper {
+    display: flex;
+    background-color: #e5e7eb8f;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
