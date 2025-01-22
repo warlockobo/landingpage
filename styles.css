@@ -49,6 +49,7 @@ body {
 .herowrapper img {
     height: 300px;
     margin-bottom: 100px;
+    width: 600px;
 }
 
 .herowrapper button {
@@ -62,8 +63,14 @@ body {
 .info {
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .infoheader {
     margin-top: 50px;
+}
+
+.info img {
+    max-width:200px;
+    max-height: 200px;
 }
