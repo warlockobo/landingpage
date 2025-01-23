@@ -68,9 +68,11 @@ body {
     color: white;
     border-radius: 5px;
     border-color: #3882F6;
-    width: 7em;
+    width: 8.5em;
     padding: 5px;
     margin-top: 5px;
+    height: 2.5em;
+    font-size: 15px;
 }
 
 .info {
@@ -135,13 +137,42 @@ body {
 .calltoactionwrapper {
     display: flex;
     background-color: #3882F6;
+    margin: 100px 200px 100px 200px;
+    border-radius: 10px;
+    height: 165px;
+    justify-content: space-between;
+    align-items: center;
+}
+.actioncontent {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    margin-left: 150px;
 }
 
 .calltoaction {
-
+    color: #E5E7EB;
+    font-size: 25px;
 }
 
 .calltosignup {
+    color: #F9FAF8;
+    font-weight: lighter;
+    margin-top: -10px;
+}
 
+.button2 {
+    border-color: white;
+    border-style: solid;
+
+    margin-right: 200px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 20px;
 }
