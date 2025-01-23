@@ -119,8 +119,8 @@ body {
     font-style: italic;
     font-weight: lighter;
     justify-content: center;
+    align-items: center;
     margin: 0 290px 0 290px;
-
 }
 
 .quotecredit {
@@ -128,4 +128,6 @@ body {
     justify-content: right;
     font-size: 26px;
     margin-right: -50%;
+    margin-top: 0;
+    margin-bottom: 0;
 }
